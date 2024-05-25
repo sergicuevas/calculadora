@@ -1,0 +1,59 @@
+.container{
+ width: 100%;
+}
+
+.formulario{
+  width: 50%;
+  margin: 100px auto;
+}
+
+ 
+.container .formulario form button{
+  background:#F26422;
+  color: #ffffff;
+  margin: 10px 0px 0px 0px;
+  padding: 7px 35px 7px 35px;
+  border: 0;
+  font-weight: 100 ;
+  font-size: 10px;
+  font-family: system-ui;
+  letter-spacing: 0.5px;
+  border-radius: 2px;
+  width: 97%;
+  box-shadow: 0px 0px 3px #999;
+}
+
+.container .formulario input{
+  border: none;
+  border-bottom: 1px solid #999;
+}
+
+.container .formulario input[type="email"],
+.container .formulario input[type="password"] {
+  color: #000;
+  width: 90%;
+  outline: none;
+  padding: 5px;
+}
+
+#boton-sesion:hover{
+  background:#1F4155; 
+}
+
+#img-container{
+  width: 100%;
+  display: flex;
+} 
+
+#img-container .icon-user {
+  font-size: 50px;
+  color: #fff;
+  background:#1F4155 ;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+
+
+
